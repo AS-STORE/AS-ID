@@ -1,0 +1,153 @@
+body
+{
+    background-color: rgb(41, 41, 41);
+    color: rgb(41, 41, 41);
+    list-style: none;
+    padding: 5%;
+
+}
+
+.as
+{
+    width: 15%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7rem;
+}
+
+.p
+{
+   color: #ffffff;
+   padding-left: 15.5rem;
+   margin-bottom: 10px;
+   display: flex;
+}
+
+.logoff
+{
+    border-style: solid;
+   padding: 0;
+   margin-left: 37rem;
+}
+
+.title
+{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 48rem;
+    font-size: large;    
+}
+
+.cara
+{
+    color: white;
+    background-color: rgb(97, 97, 97);
+    display: grid;
+    justify-content: center;
+    background-color: rgb(71, 71, 71);
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 15px 15px 0 0;
+}
+
+.cara2
+{
+    color: white;
+    background-color: rgb(97, 97, 97);
+    border-radius: 0 0 15px 15px;
+}
+
+.top
+{
+color: rgb(150, 150, 150);
+font: 900;
+border-radius: 0 0 15px 15px;
+}
+
+.po
+{
+    margin-top: 3%;
+    color:#ffffff;
+    background-color: rgb(71, 71, 71);
+    border-radius: 15px 15px 0 0;
+    font-weight: 100;
+}
+
+
+
+.dm
+{
+    color: white;
+    background-color: rgb(97, 97, 97);
+    margin-bottom: 10rem;
+    border-radius: 15px 15px 0 0;
+    height: 300px;
+}
+
+.hag
+{
+    background-color: rgb(71, 71, 71);
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+    padding-top: .5rem;
+}
+
+.lis
+{
+    margin-left: 0.3rem;
+}
+
+.harga
+{
+    color: white;
+}
+
+.hagaf
+{
+    color: #ffffff;
+    background-color: rgb(71, 71, 71);
+    width: 170px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+   }
+
+.lvl
+{
+    color: white;
+    margin-left: 1rem;
+}
+
+.fflvl
+{
+    width: 15%;
+    margin-left: 8rem;
+}
+
+.byyh
+{
+    color: #ffffff;
+    background-color: rgb(71, 71, 71);
+    width: 170px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+   }
+
+.byh
+{
+    color: #ffffff;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .daftar
+    {
+        display: grid;
+        grid-template-rows: repeat(4,1);
+    }
+}
+

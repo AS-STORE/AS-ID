@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamoStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a class="lolo">SAMOSTORE</a>
+        <input type="search" name=""  id="" class="lele" placeholder="Cari Game Lain...">
+        <button type="submit" class="lala">CARI</button>
+        <nav>
+            <ul>
+                <li><a href="#">BERANDA</a></li>
+                <li><a href="#">PRODUK</a></li>
+                <li><a href="#">TENTANG</a></li>
+                <li><a href="#">KONTAK</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+CSS 
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'tahoma';
+}
+
+body
+{
+    background-color: darkblue;
+    color: blue;
+}
+
+header
+{
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 15pt;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+}
+
+.lolo {
+    color: rgb(255, 255, 255);
+}
+
+.lele {
+    width: 30%;
+    border: none;
+    border-radius: 0 0 0 10px;
+    padding: 2px;
+}
+
+.lala
+{
+    margin-left: -5px;
+    border: none;
+    border-radius: 0 0 0 10px;
+    padding: 2px;
+    background-color: darkblue;
+    color: lightblue;
+    width: 5%;
+}
+
+nav
+{
+    margin-top: 15px;
+}
+
+nav ul
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center
+}
+
+nav ul li a
+{
+    color: white;
+}
+
+nav ul li a:hover
+{
+    border-bottom: 3px solid darkblue;
+}
+
+produk
+
+<h1 class="titlep1">POPULER</h1>
+    <section id="populer">
+        <div>
+            <a href="#harga-ff">
+                <a href="https://"><img src="freefire.jpg" alt="" class="produkff2">
+                </a>
+                    <div class="judul-produk">Free Fire</div>
+            </a>
+            <a href="#populer">&times;</a>
+        </div>
+
+        <div>
+                <a href="#harga-ff">
+                    <a href="https://"><img src="freefire.jpg" alt="" class="produkff">
+                    </a>
+                        <div class="judul-produk">Free Fire Max</div>
+                </a>
+                <a href="#populer">&times;</a>
+        </div>
+        
+        <div>
+            <div>
+                <a href="#harga-ff">
+                    <a href="https://">
+                        <img src="ml.png" alt="" class="produkml">
+                    </a>
+                        <div class="judul-produk">Mobile Legends</div>
+                </a>
+                <a href="#populer">&times;</a>
+        </div>
+
+        <div>
+            <a href="#harga-ff">
+                <a href="https://">
+                    <img src="pubg.jpg" alt="" class="produkml">
+                </a>
+                    <div class="judul-produk">Pubg</div>
+            </a>
+            <a href="#populer">&times;</a>
+    </div>
+
+    <div>
+        <a href="#harga-ff">
+            <a href="https://">
+                <img src="hok.jpg" alt="" class="produkhok">
+            </a>
+                <div class="judul-produk">Honor Of King</div>
+        </a>
+        <a href="#populer">&times;</a>
+</div>
+
+<div>
+    <a href="#harga-ff">
+        <a href="https://">
+            <img src="pes.jpg" alt="" class="produkml">
+        </a>
+            <div class="judul-produk">eFOOTBAL 2024</div>
+    </a>
+    <a href="#populer">&times;</a>
+</div>
+
+<div>
+<a href="#harga-ff">
+    <a href="https://">
+        <img src="domino.png" alt="" class="produkml">
+    </a>
+        <div class="judul-produk">Higghs Domino</div>
+</a>
+<a href="#populer">&times;</a>
+</div>
+    </section>
+
+
+
+
+    backup asstore
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="20240715_211252.png" alt="" class="gambar">
+        <input type="search" name=""  id="" class="lele" placeholder="Cari Game Lain...">
+        <button type="submit" class="lala">CARI</button>
+        <nav>
+            <ul>
+                <li><a href="#">BERANDA</a></li>
+                <li><a href="#">PRODUK</a></li>
+                <li><a href="#">TENTANG</a></li>
+                <li><a href="#">KONTAK</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="home" class="slider">
+        <h4>Klik Disini Untuk Slide Gambar</h4>
+        <input type="radio" name="choose" id="" class="choose_1">
+        <input type="radio" name="choose" id="" class="choose_2">
+        <input type="radio" name="choose" id="" class="choose_3">
+        <input type="radio" name="choose" id="" class="choose_4">
+        <input type="radio" name="choose" id="" class="choose_5">
+        <input type="radio" name="choose" id="" class="choose_6">
+        <input type="radio" name="choose" id="" class="choose_7">
+        <div class="slides">
+            <a href="https://wa.me//6285781287441" class="slide s1">
+                <img src="slide 1.jpg" alt="" class="slide s1">
+            </a>
+                <img src="slide 2.jpg" alt="" class="slide s2">   
+                <img src="ff bnner.jpg" alt="" class="slide s3">
+                <img src="ml banner.jpg" alt="" class="slide s4">
+                <img src="pubg banner.jpg" alt="" class="slide s5">
+                <img src="pes banner.jpg" alt="" class="slide s6">
+                <img src="hok (2).jpg" alt="" class="slide s7">
+        </div>
+    </div>
+    </div>
+
+    <h1 class="p">POPULER</h1>
+    <section id="populer" class="populer">
+        <div class="ff">
+            <div class="link">
+                <a href="#hargaff">
+                    <a href="https://">
+                        <img src="freefire.jpg" class="ff1" alt="">
+                </a>
+                        <div class="judulproduk">Free Fire</div>
+                </a>
+            </div>
+            <div class="overlay" id="harga-ff">
+                <div class="popup">
+                    <h2>HARGA FREE FIRE</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        70 Diamonds  : 
+                        <br>    
+                        <span class="harga">Rp 10.000</span>
+                        <br>
+                        140 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 20.000</span>
+                        <br>
+                        210 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        280 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 40.000</span>
+                        <br>
+                        355 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 50.000</span>
+                        <br>
+                        500 Diamond  : 
+                        <br>
+                        <span class="harga">Rp 70.000</span>
+                        <br>
+                        720 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 100.000</span>
+                        <br>
+                        1000 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 130.000</span>
+                        <br>
+                        M. Mingguan  : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        M. Bulanan   : 
+                        <br>
+                        <span class="harga">Rp 150.000</span>
+                        <br>
+                        <a class="pesan" href="https://wa.me/6282132873886" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ff">
+            <div class="link">
+                <a href="#harga-ff">
+                    <a href="https://">
+                        <img src="ml.png" class="ml" alt="">
+                </a>
+                        <div class="judulproduk">Mobile Legends</div>
+                </a>
+            </div>
+            <div class="overlay" id="harga-ff">
+                <div class="popup">
+                    <h2>HARGA FREE FIRE</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        70 Diamonds  : 
+                        <br>    
+                        <span class="harga">Rp 10.000</span>
+                        <br>
+                        140 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 20.000</span>
+                        <br>
+                        210 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        280 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 40.000</span>
+                        <br>
+                        355 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 50.000</span>
+                        <br>
+                        500 Diamond  : 
+                        <br>
+                        <span class="harga">Rp 70.000</span>
+                        <br>
+                        720 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 100.000</span>
+                        <br>
+                        1000 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 130.000</span>
+                        <br>
+                        M. Mingguan  : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        M. Bulanan   : 
+                        <br>
+                        <span class="harga">Rp 150.000</span>
+                        <br>
+                        <a class="pesan" href="https://wa.me/6282132873886" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ff">
+            <div class="link">
+                <a href="#harga-ff">
+                    <a href="https://">
+                        <img src="pubg.jpg" class="pubg" alt="">
+                </a>
+                        <div class="judulproduk">Pubg</div>
+                </a>
+            </div>
+            <div class="overlay" id="harga-ff">
+                <div class="popup">
+                    <h2>HARGA FREE FIRE</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        70 Diamonds  : 
+                        <br>    
+                        <span class="harga">Rp 10.000</span>
+                        <br>
+                        140 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 20.000</span>
+                        <br>
+                        210 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        280 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 40.000</span>
+                        <br>
+                        355 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 50.000</span>
+                        <br>
+                        500 Diamond  : 
+                        <br>
+                        <span class="harga">Rp 70.000</span>
+                        <br>
+                        720 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 100.000</span>
+                        <br>
+                        1000 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 130.000</span>
+                        <br>
+                        M. Mingguan  : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        M. Bulanan   : 
+                        <br>
+                        <span class="harga">Rp 150.000</span>
+                        <br>
+                        <a class="pesan" href="https://wa.me/6282132873886" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ff">
+            <div class="link">
+                <a href="#harga-ff">
+                    <a href="https://">
+                        <img src="pes.jpg" class="pess" alt="">
+                </a>
+                        <div class="judulproduk">eFOOTBAL 2024</div>
+                </a>
+            </div>
+            <div class="overlay" id="harga-ff">
+                <div class="popup">
+                    <h2>HARGA FREE FIRE</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        70 Diamonds  : 
+                        <br>    
+                        <span class="harga">Rp 10.000</span>
+                        <br>
+                        140 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 20.000</span>
+                        <br>
+                        210 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        280 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 40.000</span>
+                        <br>
+                        355 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 50.000</span>
+                        <br>
+                        500 Diamond  : 
+                        <br>
+                        <span class="harga">Rp 70.000</span>
+                        <br>
+                        720 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 100.000</span>
+                        <br>
+                        1000 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 130.000</span>
+                        <br>
+                        M. Mingguan  : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        M. Bulanan   : 
+                        <br>
+                        <span class="harga">Rp 150.000</span>
+                        <br>
+                        <a class="pesan" href="https://wa.me/6282132873886" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ff">
+            <div class="link">
+                <a href="#harga-ff">
+                    <a href="https://">
+                        <img src="hok.jpg" class="honor" alt="">
+                </a>
+                        <div class="judulproduk">Honor Of King</div>
+                </a>
+            </div>
+            <div class="overlay" id="harga-ff">
+                <div class="popup">
+                    <h2>HARGA FREE FIRE</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        70 Diamonds  : 
+                        <br>    
+                        <span class="harga">Rp 10.000</span>
+                        <br>
+                        140 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 20.000</span>
+                        <br>
+                        210 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        280 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 40.000</span>
+                        <br>
+                        355 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 50.000</span>
+                        <br>
+                        500 Diamond  : 
+                        <br>
+                        <span class="harga">Rp 70.000</span>
+                        <br>
+                        720 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 100.000</span>
+                        <br>
+                        1000 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 130.000</span>
+                        <br>
+                        M. Mingguan  : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        M. Bulanan   : 
+                        <br>
+                        <span class="harga">Rp 150.000</span>
+                        <br>
+                        <a class="pesan" href="https://wa.me/6282132873886" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ff">
+            <div class="link">
+                <a href="#harga-ff">
+                    <a href="https://">
+                        <img src="domino.png" class="dominos" alt="">
+                </a>
+                        <div class="judulproduk">Higgs Domino</div>
+                </a>
+            </div>
+            <div class="overlay" id="harga-ff">
+                <div class="popup">
+                    <h2>HARGA FREE FIRE</h2>
+                    <a class="close" href="#populer">&times;</a>
+                    <br>
+                    <div class="content">
+                        70 Diamonds  : 
+                        <br>    
+                        <span class="harga">Rp 10.000</span>
+                        <br>
+                        140 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 20.000</span>
+                        <br>
+                        210 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        280 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 40.000</span>
+                        <br>
+                        355 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 50.000</span>
+                        <br>
+                        500 Diamond  : 
+                        <br>
+                        <span class="harga">Rp 70.000</span>
+                        <br>
+                        720 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 100.000</span>
+                        <br>
+                        1000 Diamonds : 
+                        <br>
+                        <span class="harga">Rp 130.000</span>
+                        <br>
+                        M. Mingguan  : 
+                        <br>
+                        <span class="harga">Rp 30.000</span>
+                        <br>
+                        M. Bulanan   : 
+                        <br>
+                        <span class="harga">Rp 150.000</span>
+                        <br>
+                        <a class="pesan" href="https://wa.me/6282132873886" 
+                        target="_blank" 
+                        rel="noopener noreferrer"><img src="./images/whatsapp.png" alt="">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>    
