@@ -59,8 +59,9 @@ body
 .cara2
 {
     color: white;
+    font-size: 20pt;
     background-color: rgb(97, 97, 97);
-    width: 780px;
+    width: 785px;
     border-radius: 0 0 15px 15px;
 }
 
@@ -89,7 +90,7 @@ border-radius: 0 0 15px 15px;
     width: 770px;
     margin-bottom: 10rem;
     border-radius: 15px 15px 0 0;
-    height: 300px;
+    height: 1000px;
 }
 
 .hag
@@ -115,7 +116,7 @@ border-radius: 0 0 15px 15px;
 {
     color: #ffffff;
     background-color: rgb(71, 71, 71);
-    width: 170px;
+    width: 230px;
     margin-top: 2rem;
     margin-left: 2rem;
    }
@@ -124,19 +125,20 @@ border-radius: 0 0 15px 15px;
 {
     color: white;
     margin-left: 1rem;
+    font-size: 20pt;
 }
 
 .fflvl
 {
     width: 15%;
-    margin-left: 8rem;
+    margin-left: 11.5rem;
 }
 
 .byyh
 {
     color: #ffffff;
     background-color: rgb(71, 71, 71);
-    width: 170px;
+    width: 230px;
     margin-top: 2rem;
     margin-left: 2rem;
    }
@@ -145,6 +147,18 @@ border-radius: 0 0 15px 15px;
 {
     color: #ffffff;
     margin-left: 1rem;
+    font-size: 20pt;
+}
+
+.ber
+{
+    color: #ffffff;
+    background-color: rgb(71, 71, 71);
+    width: 230px;
+    margin-bottom: 100rem;
+    margin-left: 25rem;
+    font-size: 10pt;
+    font-style: initial;
 }
 
 @media screen and (max-width: 60px) {
@@ -154,4 +168,3 @@ border-radius: 0 0 15px 15px;
         grid-template-rows: repeat(4,1);
     }
 }
-
